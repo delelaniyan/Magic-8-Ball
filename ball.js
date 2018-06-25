@@ -1,3 +1,9 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
 fill(20, 16, 20);
 ellipse(200, 200, 375, 375);
 fill(255, 255, 255);
@@ -18,4 +24,5 @@ else if (answer > 0) {
 else if(answer === 0) {
     text("What do you think", 155, 203);
     text("That one's obvious", 154, 233);
+}
 }
