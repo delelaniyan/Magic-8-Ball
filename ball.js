@@ -9,6 +9,7 @@ ellipse(200, 200, 375, 375);
 fill(255, 255, 255);
 ellipse(202, 209, 163, 163);
 fill(209, 34, 92);
+}
 var answer = floor(random(-4, 4));
 if (answer < 0) {
     text("No", 193, 180);
@@ -25,4 +26,4 @@ else if(answer === 0) {
     text("What do you think", 155, 203);
     text("That one's obvious", 154, 233);
 }
-}
+
